@@ -1,0 +1,7 @@
+git使用：
+git config --global user.name '291390412'
+git config --global user.email '291390412@qq.com'
+git config -l   检查配置
+git init 
+git remote add origin https://github.com/291390412/test-frame.git  --对建好到仓库进行关联
+git status  查看本地变化
