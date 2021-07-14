@@ -4,13 +4,13 @@ git config --global user.email '291390412@qq.com'
 git config -l   检查配置
 git status  查看本地变化
 git init 
-git add *  添加文件
+git add *  
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/291390412/test-frame.git
 git push -u origin main
-==============
-git remote add origin https://github.com/291390412/test-frame.git
+============
+git remote add origin git://github.com/291390412/test-frame.git
 git push -u origin main
 git commit -m 'first_commit'  上传文件，截至本地修改生效了。
 git push -u origin master   开始推送远端
