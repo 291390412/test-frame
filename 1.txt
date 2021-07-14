@@ -5,3 +5,6 @@ git config -l   检查配置
 git init 
 git remote add origin https://github.com/291390412/test-frame.git  --对建好到仓库进行关联
 git status  查看本地变化
+git add *  添加文件
+git commit -m 'first_commit'  上传文件，截至本地修改生效了。
+git push -u origin master   开始推送远端
